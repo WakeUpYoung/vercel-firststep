@@ -1,14 +1,14 @@
+<script setup>
+ const data = {
+   name: 'Hello World by Data'
+ }
+</script>
+
 <template>
   <div>
-    Hello World
+    {{ data.name }}
   </div>
 </template>
-
-<script>
-export default {
-  name: 'HelloWorld'
-}
-</script>
 
 <style scoped>
 
