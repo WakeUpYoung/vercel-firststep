@@ -4,7 +4,8 @@ import { ref, useFetch } from '#imports'
 const name = ref('This is a default data')
  const onClickButton = async () => {
    const { data } = await useFetch(() => `/api/helloworld`)
-   name.value = data
+   console.log(data)
+   name.value = data.value ? data.value : 'error'
  }
 </script>
 
