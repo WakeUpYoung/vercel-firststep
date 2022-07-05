@@ -1,12 +1,8 @@
 <template>
   <div>
-    <NuxtPage></NuxtPage >
-    <HelloWorld></HelloWorld>
+    <NuxtPage page-key="static"></NuxtPage >
   </div>
 </template>
 <script>
-import HelloWorld from "./pages/HelloWorld";
-export default {
-  components: {HelloWorld}
-}
+
 </script>
